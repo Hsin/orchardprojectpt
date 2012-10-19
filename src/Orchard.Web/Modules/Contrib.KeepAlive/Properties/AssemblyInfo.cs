@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Contrib.Cache")]
+[assembly: AssemblyTitle("Contrib.KeepAlive")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("Orchard")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("cc5ee19a-8a16-49cf-96a8-5a1bcdd4fa7d")]
+[assembly: Guid("f5b61a8b-cef7-4c66-9b1f-eeb45635556f")]
 
 // Version information for an assembly consists of the following four values:
 //
