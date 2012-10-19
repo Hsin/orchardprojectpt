@@ -1,0 +1,30 @@
+﻿@{
+    Model.Metadata.Wrappers.Clear();
+}
+<html>
+<head>
+<title>Orchard advisory</title>
+<style>
+body {
+    background:#fff;
+    color: #333;
+    font-family: Segoe UI,Trebuchet,Arial,Sans-Serif;
+    line-height: 1.6em;
+    font-size: 81.3%;
+    padding: 0 8px;
+}
+a, a:visited, a:hover {
+    color: #1E5D7D;
+    text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+</style>
+</head>
+<body>
+@if (Model.Content != null) {
+    <div id="contentMain">
+        @Display(Model.Content)
+    </div>
+}
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿@using Orchard.Mvc.Html;
+@using Orchard.UI.Resources;
+@{
+    RegisterLink(new LinkEntry {Type = "image/x-icon", Rel = "shortcut icon", Href = Url.Content("~/themes/OrchardProject.Net/Images/favicon.ico")});
+}
+<!DOCTYPE html> 
+<html lang="en" class="static @Html.ClassForPage()"> 
+<head> 
+    <meta charset="utf-8" /> 
+    <title>@Layout.Title() - Orchard Project</title> 
+     @Display(Model.Head)
+    <script type="text/javascript">(function(d){d.className="dyn "+d.className.substring(7,d.length);})(document.documentElement);</script> 
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20757794-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+</head> 
+<body> 
+@Display(Model.Body)
+@Display(Model.Tail)
+</body>
+</html>

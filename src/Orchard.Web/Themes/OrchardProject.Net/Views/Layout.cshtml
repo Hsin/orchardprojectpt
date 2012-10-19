@@ -1,0 +1,63 @@
+﻿@{
+    /* Global includes for the theme
+    ***************************************************************/
+    
+    SetMeta("X-UA-Compatible", "IE=edge,chrome=1");
+    Style.Include("site.css");
+
+    /* Some useful shortcuts or settings
+    ***************************************************************/
+
+    Func<dynamic, dynamic> Zone = x => Display(x); // Zone as an alias for Display to help make it obvious when we're displaying zones
+
+    /* Inserting some ad hoc shapes
+    ***************************************************************/
+
+    WorkContext.Layout.Branding.Add(New.Brand(), "5");
+    WorkContext.Layout.Branding.Add(New.User(), "10"); // Login and dashboard links
+}
+<div id="wrapper">
+    @if (Model.Branding != null) {
+    <div id="branding">
+        @Zone(Model.Branding)
+    </div>
+    }
+    @if (Model.Navigation != null) {
+    <div id="navMain" style="clear:both;">
+        @Zone(Model.Navigation)
+    </div>
+    }
+    <div id="content">
+        @if (Model.Sidebar != null) {
+        <aside id="sidebar" class="sidebar contentSub">
+            @Zone(Model.Sidebar)
+        </aside>
+        }
+        @if (Model.Featured != null) {
+        <div id="layout-featured" class="group">
+            @Zone(Model.Featured)
+        </div>
+        }
+        @if (Model.Messages != null) {
+        <div id="messages">
+            @Zone(Model.Messages)
+        </div>
+        }
+        @if (Model.BeforeContent != null) {
+        <div id="before-content">
+            @Zone(Model.BeforeContent)
+        </div>
+        }
+        @if (Model.Content != null) {
+        <div id="contentMain">
+            @Zone(Model.Content)
+        </div>
+        }
+        @if (Model.AfterContent != null) {
+        <div id="after-content">
+            @Zone(Model.AfterContent)
+        </div>
+        }
+        @Display.Footer()
+    </div>
+</div>

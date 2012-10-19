@@ -1,0 +1,7 @@
+﻿Name: OrchardProject.Net
+Author: jowall, bleroy
+Description: An Orchard theme for Orchard communities.
+Version: 1.4
+Tags: OrchardProject.Net
+Website: http://orchardproject.net
+Zones: Branding, Navigation, Featured, Messages, BeforeContent, Content, AfterContent, Sidebar, Footer

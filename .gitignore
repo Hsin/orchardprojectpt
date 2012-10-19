@@ -1,6 +1,15 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
+# orchard build tasks
+build
+buildazure
+buildtasks
+artifacts
 
-# mstest test results
-TestResults
+# mercurial
+.hg
+.hg*
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini

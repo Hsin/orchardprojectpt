@@ -1,0 +1,9 @@
+﻿<div class="moduleSub">
+@if (!String.IsNullOrEmpty(Model.ContentItem.WidgetPart.Title)) {
+    <h5>@Model.ContentItem.WidgetPart.Title</h5>
+}
+
+    <p class="content">
+@Html.Raw(Model.ContentItem.BodyPart.Text)
+    </p>
+</div>
