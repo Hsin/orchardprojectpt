@@ -1,9 +1,25 @@
-﻿<div class="moduleSub">
-@if (!String.IsNullOrEmpty(Model.ContentItem.WidgetPart.Title)) {
-    <h5>@Model.ContentItem.WidgetPart.Title</h5>
+﻿@using Orchard.ContentManagement;
+@using Orchard.Widgets.Models;
+@{
+    var widgetPart = ((IContent)Model.ContentItem).As<WidgetPart>();
+    Model.Classes.Add("moduleSub");
+    var tag = Tag(Model, "article"); 
 }
-
-    <p class="content">
-@Html.Raw(Model.ContentItem.BodyPart.Text)
+@tag.StartElement
+    @if ( (widgetPart.RenderTitle && HasText(widgetPart.Title)) || Model.Header != null) {
+    <header>
+        @if ((widgetPart.RenderTitle && HasText(widgetPart.Title))) {
+        <h5>@widgetPart.Title</h5>
+        }
+        @Display(Model.Header)
+    </header>
+    }
+<p class="content">
+    @Html.Raw(Model.ContentItem.BodyPart.Text)
     </p>
-</div>
+    @if(Model.Footer != null) {
+    <footer>
+        @Display(Model.Footer)
+    </footer>
+    }
+@tag.EndElement

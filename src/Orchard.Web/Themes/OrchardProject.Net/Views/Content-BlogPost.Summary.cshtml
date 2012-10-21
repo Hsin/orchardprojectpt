@@ -1,0 +1,54 @@
+﻿@using Orchard.Utility.Extensions;
+@using Orchard.ContentManagement
+@using Orchard.Core.Common.Models
+@using Orchard.Tags.Models
+@using Orchard.Core.Title.Models;
+@{
+    var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
+
+    var contentItem = ((IContent)Model.ContentItem);
+
+    var body = contentItem.As<BodyPart>();
+    var bodyText = body.Text;
+    var more = bodyText.IndexOf("<!--more-->");
+    if (more != -1)
+    {
+        bodyText = bodyText.Substring(0, more);
+    }
+    else
+    {
+        var firstP = bodyText.IndexOf("<p>");
+        var firstSlashP = bodyText.IndexOf("</p>");
+        if (firstP >= 0 && firstSlashP > firstP)
+        {
+            bodyText = bodyText.Substring(firstP, firstSlashP + 4 - firstP);
+        }
+    }
+    var bodyHtml = new HtmlString(bodyText);
+    var common = contentItem.As<CommonPart>();
+    var tags = contentItem.As<TagsPart>();
+    var title = contentItem.As<TitlePart>();
+
+    var tagsHtml = new List<IHtmlString>();
+    foreach (var t in tags.CurrentTags)
+    {
+        if (tagsHtml.Any())
+        {
+            tagsHtml.Add(new HtmlString(", "));
+        }
+        tagsHtml.Add(Html.ActionLink((string)t.TagName, "Search", "Home", new { area = "Orchard.Tags", tagName = (string)t.TagName }, new { }));
+    }
+}
+<article class="content-item @contentTypeClassName postsummary">
+    <header>
+        <h4>@Html.ItemDisplayLink(title.Title, contentItem)</h4>
+        <div class="postmeta">
+            <strong>Publicado por @common.Owner.UserName</strong> em @(((DateTime)common.CreatedUtc).ToString("MM/dd/yyyy HH:mm tt"))
+        </div>
+    </header>
+    @bodyHtml
+    <div class="postlink">
+        <span class="tags"><strong>Etiquetas:</strong><i>&nbsp;@foreach(var htmlString in tagsHtml) { @htmlString }</i></span><br />
+        <a href="@Url.ItemDisplayUrl(contentItem)">Ler mais...</a>
+    </div>
+</article>

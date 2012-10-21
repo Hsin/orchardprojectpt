@@ -1,11 +1,9 @@
 ﻿<div id="siteInfo">
     <div id="siteInfoContent">
         <ul>
-          <li>@Html.ActionLink("Home", "Index")</li>
-          <li><a href="mailto:ofeedbk@microsoft.com">Contact Us</a></li>
-          <li>@Html.ActionLink("About Us", "About")</li>
-          <li>@Html.ActionLink("Terms Of Use", "TermsOfUse")</li>
-          <li>@Html.ActionLink("Privacy Statement", "PrivacyStatement")</li>
+          <li><a href="@Url.Content("~/")">Principal</a></li>
+          <li><a href="@Url.Content("~/sobre")">Sobre</a></li>
+          <li><a href="@Url.Content("~/contactos")">Contacte-nos</a></li>
         </ul>
     </div>
 </div>

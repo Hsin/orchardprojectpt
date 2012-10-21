@@ -398,12 +398,14 @@ select, textarea, input.text, input.textMedium, input.text-box {
     padding:3px;
     border:1px solid #bdbcbc;
 }
-
+input.fullWidth, textarea{
+width:100%;
+}
 select {
     padding:1px;
 }
 
-ul.postlist {
+ul.postlist, ul.blog-posts, ul.tagged-posts {
 	list-style: none;
     overflow: hidden;
 }
