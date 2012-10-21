@@ -1,0 +1,275 @@
+# Orchard resource strings - pt-PT
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: Orchard.PublishLater.Drivers.PublishLaterPartDriver
+#| msgid "You cannot schedule a publishing date in the past"
+msgctxt "Orchard.PublishLater.Drivers.PublishLaterPartDriver"
+msgid "You cannot schedule a publishing date in the past"
+msgstr "Não é possível agendar uma publicação numa data do passado."
+
+#: ~/Modules/Orchard.PublishLater/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.PublishLater/Module.txt"
+msgid "The Orchard Team"
+msgstr "A equipa Orchard"
+
+#: ~/Modules/Orchard.PublishLater/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.PublishLater/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.PublishLater/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.PublishLater/Module.txt"
+msgid "The PublishLater module introduces draft creation and scheduled publishing functionality."
+msgstr "O módulo PublishLater introduz a criação de rascunhos e a capacidade de agendar a publicação."
+
+#: ~/Modules/Orchard.PublishLater/Module.txt
+#| msgid "Orchard.PublishLater.Name"
+msgctxt "~/Modules/Orchard.PublishLater/Module.txt"
+msgid "Publish Later"
+msgstr "Publicar mais tarde"
+
+#: ~/Modules/Orchard.PublishLater/Module.txt
+#| msgid "Orchard.PublishLater.Description"
+msgctxt "~/Modules/Orchard.PublishLater/Module.txt"
+msgid "Draft creation and scheduled publishing."
+msgstr "Criação de rascunho e publicação agendada."
+
+#: ~/Modules/Orchard.PublishLater/Module.txt
+#| msgid "Orchard.PublishLater.Category"
+msgctxt "~/Modules/Orchard.PublishLater/Module.txt"
+msgid "Content"
+msgstr "Conteúdo"
+
+#: Orchard.PublishLater.Drivers.PublishLaterPartDriver
+#| msgid "{0} is an invalid date and time"
+msgctxt "Orchard.PublishLater.Drivers.PublishLaterPartDriver"
+msgid "{0} is an invalid date and time"
+msgstr "{0} é uma data e hora inválida"
+
+#: Orchard.PublishLater.Drivers.PublishLaterPartDriver
+#| msgid "Both the date and time need to be specified for when this is to be published. If you don't want to schedule publishing then click Save or Publish Now."
+msgctxt "Orchard.PublishLater.Drivers.PublishLaterPartDriver"
+msgid "Both the date and time need to be specified for when this is to be published. If you don't want to schedule publishing then click Save or Publish Now."
+msgstr "É necessário especificar a data e hora da publicação. Se não desejar utilizar a publicação agendada, então deve efectuar um clique em Guardar ou Publicar Agora."
+
+#: Orchard.PublishLater.Services.PublishLaterService
+#| msgid "Couldn't publish selected content."
+msgctxt "Orchard.PublishLater.Services.PublishLaterService"
+msgid "Couldn't publish selected content."
+msgstr "Não é possível publicar o conteúdo selecionado."
+
+#: Orchard.PublishLater.Services.XmlRpcHandler
+#| msgid "The username or e-mail or password provided is incorrect."
+msgctxt "Orchard.PublishLater.Services.XmlRpcHandler"
+msgid "The username or e-mail or password provided is incorrect."
+msgstr "O nome de utilizador ou endereço de e-mail ou a palavra-passe fornecidos estão incorrectos."
+
+#: ~/Modules/Orchard.PublishLater/Views/EditorTemplates/Parts/PublishLater.cshtml
+#| msgid "Publish"
+msgctxt "~/Modules/Orchard.PublishLater/Views/EditorTemplates/Parts/PublishLater.cshtml"
+msgid "Publish"
+msgstr "Publicar"
+
+#: ~/Modules/Orchard.PublishLater/Views/EditorTemplates/Parts/PublishLater.cshtml
+#| msgid "Date"
+msgctxt "~/Modules/Orchard.PublishLater/Views/EditorTemplates/Parts/PublishLater.cshtml"
+msgid "Date"
+msgstr "Data"
+
+#: ~/Modules/Orchard.PublishLater/Views/EditorTemplates/Parts/PublishLater.cshtml
+#| msgid "Time"
+msgctxt "~/Modules/Orchard.PublishLater/Views/EditorTemplates/Parts/PublishLater.cshtml"
+msgid "Time"
+msgstr "Hora"
+
+#: ~/Modules/Orchard.PublishLater/Views/EditorTemplates/Parts/PublishLater.cshtml
+#| msgid "Publish Later"
+msgctxt "~/Modules/Orchard.PublishLater/Views/EditorTemplates/Parts/PublishLater.cshtml"
+msgid "Publish Later"
+msgstr "Publicar mais tarde"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.cshtml
+#| msgid "Published: {0}"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.cshtml"
+msgid "Published: {0}"
+msgstr "Publicado: {0}"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.Summary.cshtml
+#| msgid "Published: {0}"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.Summary.cshtml"
+msgid "Published: {0}"
+msgstr "Publicado: {0}"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.Summary.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.Summary.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Online"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "Online"
+msgstr "Online"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "The page is currently online"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "The page is currently online"
+msgstr "A página encontra-se online"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Published"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "Published"
+msgstr "Publicado"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "Offline"
+msgstr "Offline"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "The page is currently offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "The page is currently offline"
+msgstr "A página encontra-se offline"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Not Published"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "Not Published"
+msgstr "Não publicado"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Draft"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "Draft"
+msgstr "Rascunho"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "The page has a draft"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "The page has a draft"
+msgstr "A página possui um rascunho"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "No Draft"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "No Draft"
+msgstr "Sem rascunho"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Published: {0}"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "Published: {0}"
+msgstr "Publicado: {0}"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Scheduled"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "Scheduled"
+msgstr "Agendado"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "The page is scheduled for publishing"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "The page is scheduled for publishing"
+msgstr "A página tem publicação agendada"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml
+#| msgid "M/d/yyyy h:mm tt"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtml"
+msgid "M/d/yyyy h:mm tt"
+msgstr "d/M/yyyy H:mm ss"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Online"
+#| msgid " | "
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Online""
+msgid "Online"
+msgstr "Online"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm
+#| msgid "The page is currently online"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm"
+msgid "The page is currently online"
+msgstr "A página encontra-se online"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Published"
+#| msgid "The page is currently online"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Published""
+msgid "Published"
+msgstr "Publicado"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm"
+msgid "Offline"
+msgstr "Offline"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "The page is currently offline"
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "The page is currently offline""
+msgid "The page is currently offline"
+msgstr "A página encontra-se offline"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Not Published"
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Not Published""
+msgid "Not Published"
+msgstr "Não publicado"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Draft"
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Draft""
+msgid "Draft"
+msgstr "Rascunho"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "The page has a draft"
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "The page has a draft""
+msgid "The page has a draft"
+msgstr "A página possui um rascunho"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "No Draft"
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "No Draft""
+msgid "No Draft"
+msgstr "Sem rascunho"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Published: {0}"
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Published: {0}""
+msgid "Published: {0}"
+msgstr "Publicado: {0}"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Scheduled"
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "Scheduled""
+msgid "Scheduled"
+msgstr "Agendado"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "The page is scheduled for publishing"
+#| msgid "Offline"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm#| msgid "The page is scheduled for publishing""
+msgid "The page is scheduled for publishing"
+msgstr "A publicação da página foi agendada"
+
+#: ~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm
+#| msgid "M/d/yyyy h:mm tt"
+msgctxt "~/Modules/Orchard.PublishLater/Views/Parts/PublishLater.Metadata.SummaryAdmin.cshtm"
+msgid "M/d/yyyy h:mm tt"
+msgstr "d/M/yyyy h:mm ss"
+
+#: ~/Modules/Orchard.PublishLater/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.PublishLater/Module.txt"
+msgid "PublishLater"
+msgstr "PublishLater"
+

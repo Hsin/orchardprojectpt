@@ -1,0 +1,245 @@
+# Orchard resource strings - pt-PT
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "Orchard.ContentPicker"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "The Orchard Team"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "http://orchardcontentpicker.codeplex.com"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "UI for selecting Content Items."
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Orchard.ContentPicker.Description"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "UI for selecting Content Items."
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Orchard.ContentPicker.Category"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "Input Editor"
+msgstr ""
+
+#: Orchard.ContentPicker.Drivers.ContentPickerFieldDriver
+#| msgid "The field {0} is mandatory"
+msgctxt "Orchard.ContentPicker.Drivers.ContentPickerFieldDriver"
+msgid "The field {0} is mandatory"
+msgstr ""
+
+#: Orchard.ContentPicker.Drivers.ContentPickerFieldDriver
+#| msgid "Ids"
+msgctxt "Orchard.ContentPicker.Drivers.ContentPickerFieldDriver"
+msgid "Ids"
+msgstr ""
+
+#: Orchard.ContentPicker.Drivers.ContentPickerFieldDriver
+#| msgid "A formatted list of the ids, e.g., {1},{42}"
+msgctxt "Orchard.ContentPicker.Drivers.ContentPickerFieldDriver"
+msgid "A formatted list of the ids, e.g., {1},{42}"
+msgstr ""
+
+#: Orchard.ContentPicker.Services.ContentPickerNavigationProvider
+#| msgid "Content Picker"
+msgctxt "Orchard.ContentPicker.Services.ContentPickerNavigationProvider"
+msgid "Content Picker"
+msgstr ""
+
+#: Orchard.ContentPicker.Services.ContentPickerNavigationProvider
+#| msgid "Recent Content"
+msgctxt "Orchard.ContentPicker.Services.ContentPickerNavigationProvider"
+msgid "Recent Content"
+msgstr ""
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid "Content Picker Field"
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "Content Picker Field"
+msgstr ""
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid "Tokens for Content Picker Fields"
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "Tokens for Content Picker Fields"
+msgstr ""
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid "Content Item"
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "Content Item"
+msgstr ""
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid "The content item."
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "The content item."
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml
+#| msgid "Select Content Item"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml"
+msgid "Select Content Item"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml
+#| msgid "Cannot perform requested operation"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml"
+msgid "Cannot perform requested operation"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml
+#| msgid "Authentication timed-out: please log-on again"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml"
+msgid "Authentication timed-out: please log-on again"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.SummaryAdmin.cshtml
+#| msgid "Select"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.SummaryAdmin.cshtml"
+msgid "Select"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Recent Content"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Recent Content"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Manage {0} Content"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Manage {0} Content"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Show"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Show"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "any (show all)"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "any (show all)"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Ordered by"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Ordered by"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "recently created"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "recently created"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "recently modified"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "recently modified"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "recently published"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "recently published"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Apply"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "A content item is required"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "A content item is required"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Check to ensure the user is providing at least one content item."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Check to ensure the user is providing at least one content item."
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Allow multiple content items"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Allow multiple content items"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Check to ensure the allow the user to select multiple content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Check to ensure the allow the user to select multiple content items."
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Help text"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "The help text is written under the field when authors are selecting content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "The help text is written under the field when authors are selecting content items."
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "Your need to save your changes."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "Your need to save your changes."
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "Content Item"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "Content Item"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "Remove"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "Add"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "Add"
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.cshtml
+#| msgid "No content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.cshtml"
+msgid "No content items."
+msgstr ""
+
+#: ~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.SummaryAdmin.cshtml
+#| msgid "No content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.SummaryAdmin.cshtml"
+msgid "No content items."
+msgstr ""
+

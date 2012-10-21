@@ -1,0 +1,65 @@
+# Orchard resource strings - pt-PT
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "Mensagens"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "The Orchard Team"
+msgstr "A equipa Orchard"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "The Messaging module adds messaging functionalities."
+msgstr "O módulo Messaging adiciona capacidades de comunicação à plataforma."
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Name"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "Mensagens"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Description"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging services."
+msgstr "Serviços de mensagens."
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Category"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "Mensagens"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "Messaging"
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "Messaging"
+msgstr "Mensagens"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "Default channel service for messages"
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "Default channel service for messages"
+msgstr "Canal padrão do serviço para mensagens"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "You must enable a messaging channel (e.g., Orchard.Email) before being able to send messages."
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "You must enable a messaging channel (e.g., Orchard.Email) before being able to send messages."
+msgstr "Deve ativar o canal de mensagens (por ex., Orchard.Email) antes de poder enviar mensagens."
+

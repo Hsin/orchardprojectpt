@@ -1,0 +1,881 @@
+# Orchard resource strings - pt-PT
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "View"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "View"
+msgstr "Ver"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "Publish Draft"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "Publish Draft"
+msgstr "Publicar rascunho"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "Preview"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "Preview"
+msgstr "Pré-visualizar"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "Unpublish"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "Unpublish"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "Publish"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "Publish"
+msgstr "Publicar"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "Edit"
+msgstr "Editar"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "Delete"
+msgstr "Apagar"
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs Description"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "A simple web log."
+msgstr "Um simples registo na web."
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs Category"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Content"
+msgstr "Conteúdo"
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs.RemotePublishing Description"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Blog easier using a dedicated MetaWeblogAPI-compatible publishing tool."
+msgstr "Para publicar no seu blogue de forma simplificada, utilize uma ferramenta de publicação compatível com a MetaWeblogAPI. "
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs.RemotePublishing Category"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Content Publishing"
+msgstr "Publicação de conteúdo"
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "An error occured while loading the file: "
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "An error occured while loading the file: "
+msgstr "Ocorreu um erro ao carregar o ficheiro:"
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts/Blogs.BlogArchives.cshtml
+#| msgid "Show the archives for which blog? Note: specify the blog's slug."
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts/Blogs.BlogArchives.cshtml"
+msgid "Show the archives for which blog? Note: specify the blog's slug."
+msgstr "Mostrar o arquivo para que blogue? Nota: especifique o link permanente do blogue."
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-Blog.DetailAdmin.cshtml
+#| msgid "New Post"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-Blog.DetailAdmin.cshtml"
+msgid "New Post"
+msgstr "Novo artigo"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-Blog.Edit.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-Blog.Edit.cshtml"
+msgid "Save"
+msgstr "Guardar"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml
+#| msgid "View"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml"
+msgid "View"
+msgstr "Ver"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml
+#| msgid "List Posts"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml"
+msgid "List Posts"
+msgstr "Lista artigos"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml
+#| msgid "New Post"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml"
+msgid "New Post"
+msgstr "Novo artigo"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml"
+msgid "Edit"
+msgstr "Editar"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-Blog.SummaryAdmin.cshtml"
+msgid "Remove"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.Editor.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.Editor.cshtml"
+msgid "Save"
+msgstr "Guardar"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.Editor.cshtml
+#| msgid "Discard Draft"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.Editor.cshtml"
+msgid "Discard Draft"
+msgstr "Eliminar rascunho"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "Edit"
+msgstr "Editar"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.SummaryAdmin.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.SummaryAdmin.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Blogs/Views/Items/Content-BlogPost.SummaryAdmin.cshtml"
+msgid "Remove"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.Manage.cshtml
+#| msgid "Blog Properties"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.Manage.cshtml"
+msgid "Blog Properties"
+msgstr "Propriedades do Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.Pager.cshtml
+#| msgid "Older Posts"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.Pager.cshtml"
+msgid "Older Posts"
+msgstr "Artigos antigos"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.Pager.cshtml
+#| msgid "Newer Posts"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.Pager.cshtml"
+msgid "Newer Posts"
+msgstr "Artigos recentes"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogArchives.cshtml
+#| msgid "Archives"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogArchives.cshtml"
+msgid "Archives"
+msgstr "Arquivo"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogArchives.cshtml
+#| msgid "None found"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogArchives.cshtml"
+msgid "None found"
+msgstr "Nenhum encontrado"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml"
+msgid "Actions:"
+msgstr "Ações:"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml"
+msgid "Choose action..."
+msgstr "Escolha ação..."
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml
+#| msgid "Publish Now"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml"
+msgid "Publish Now"
+msgstr "Publicar"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml
+#| msgid "Unpublish"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml"
+msgid "Unpublish"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml"
+msgid "Remove"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml"
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml
+#| msgid "There are no posts for this blog."
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.Admin.cshtml"
+msgid "There are no posts for this blog."
+msgstr "Não existem artigos neste blogue."
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.cshtml
+#| msgid "There are no posts for this blog."
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.BlogPost.List.cshtml"
+msgid "There are no posts for this blog."
+msgstr "Não existem artigos neste blogue."
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.BlogPostCount.cshtml
+#| msgid "1 post"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.BlogPostCount.cshtml"
+msgid "1 post"
+msgstr "1 artigo"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.BlogPostCount.cshtml
+#| msgid "{0} posts"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts/Blogs.Blog.BlogPostCount.cshtml"
+msgid "{0} posts"
+msgstr "{0} artigos"
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Blogs"
+msgstr "Blogues"
+
+#: Orchard.Blogs.Controllers.BlogAdminController
+#| msgid "Blog deleted"
+msgctxt "Orchard.Blogs.Controllers.BlogAdminController"
+msgid "Blog deleted"
+msgstr "Blogue eliminado"
+
+#: ~/Modules/Orchard.Blogs/Views/Blog.DeleteButton.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Blogs/Views/Blog.DeleteButton.cshtml"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Couldn't create content"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Couldn't create content"
+msgstr "Não foi possível criar conteúdo"
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.RecentBlogPosts.cshtml
+#| msgid "Number of posts to display. Zero for all."
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.RecentBlogPosts.cshtml"
+msgid "Number of posts to display. Zero for all."
+msgstr "Número de artigos a visualizar. Zero para todos."
+
+#: Orchard.Blogs.AdminMenu
+#| msgid "Blog"
+msgctxt "Orchard.Blogs.AdminMenu"
+msgid "Blog"
+msgstr "Blogue"
+
+#: Orchard.Blogs.AdminMenu
+#| msgid "New Post"
+msgctxt "Orchard.Blogs.AdminMenu"
+msgid "New Post"
+msgstr "Novo artigo"
+
+#: Orchard.Blogs.AdminMenu
+#| msgid "New Blog"
+msgctxt "Orchard.Blogs.AdminMenu"
+msgid "New Blog"
+msgstr "Novo Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.SummaryAdmin.cshtml
+#| msgid "List Posts"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.SummaryAdmin.cshtml"
+msgid "List Posts"
+msgstr "Lista artigos"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.SummaryAdmin.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.SummaryAdmin.cshtml
+#| msgid "New Post"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.SummaryAdmin.cshtml"
+msgid "New Post"
+msgstr "Novo artigo"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/Create.cshtml
+#| msgid "New Blog"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/Create.cshtml"
+msgid "New Blog"
+msgstr "Novo Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogPostAdmin/Create.cshtml
+#| msgid "New Post"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogPostAdmin/Create.cshtml"
+msgid "New Post"
+msgstr "Novo artigo"
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.BlogArchives.cshtml
+#| msgid "Select which blog you want to display the archives for"
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.BlogArchives.cshtml"
+msgid "Select which blog you want to display the archives for"
+msgstr "Selecione o blogue do qual deseja ver o arquivo "
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.RecentBlogPosts.cshtml
+#| msgid "Select which blog you want to display the recent posts for"
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.RecentBlogPosts.cshtml"
+msgid "Select which blog you want to display the recent posts for"
+msgstr "Selecione o blogue do qual deseja ver os artigos mais recentes"
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Blog created successfully"
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Blog created successfully"
+msgstr "Blogue criado com sucesso"
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Loading feed..."
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Loading feed..."
+msgstr "A carregar feed..."
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Found {0} items"
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Found {0} items"
+msgstr "Encontrados {0} items"
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "An error occured while loading the feed at {0}."
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "An error occured while loading the feed at {0}."
+msgstr "Ocorreu um erro ao carregar o feed em {0}."
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Blog not found with specified Id: {0}"
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Blog not found with specified Id: {0}"
+msgstr "Blogue não encontrado com o ID especificado: {0}"
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Adding post: {0}..."
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Adding post: {0}..."
+msgstr "Adicionar artigo: {0}..."
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Import feed completed."
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Import feed completed."
+msgstr "Importação do feed completa."
+
+#: Orchard.Blogs.Services.XmlRpcHandler
+#| msgid "The specified Blog Post doesn't exist anymore. Please create a new Blog Post."
+msgctxt "Orchard.Blogs.Services.XmlRpcHandler"
+msgid "The specified Blog Post doesn't exist anymore. Please create a new Blog Post."
+msgstr "O artigo especificado já não existe. Por favor crie um novo artigo."
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "The Orchard Team"
+msgstr "A equipa Orchard"
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net "
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "The Orchard Blogs module is implementing basic blogging features."
+msgstr "O módulo Blogs implementa funcinalidades básicas de uma plataforma de blogging."
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs.Name"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Blogs"
+msgstr "Blogues"
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs.Description"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "A simple web log."
+msgstr "Um simples registo na web."
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs.Category"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Content"
+msgstr "Conteúdo"
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs.RemotePublishing.Name"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Remote Blog Publishing"
+msgstr "Publicação remota."
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs.RemotePublishing.Description"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Blog easier using a dedicated MetaWeblogAPI-compatible publishing tool."
+msgstr "Para publicar no seu blogue de forma simplificada, utilize uma ferramenta de publicação compatível com a MetaWeblogAPI. "
+
+#: ~/Modules/Orchard.Blogs/Module.txt
+#| msgid "Orchard.Blogs.RemotePublishing.Category"
+msgctxt "~/Modules/Orchard.Blogs/Module.txt"
+msgid "Content Publishing"
+msgstr "Publicação de conteúdo"
+
+#: Orchard.Blogs.AdminMenu
+#| msgid "Blogs"
+msgctxt "Orchard.Blogs.AdminMenu"
+msgid "Blogs"
+msgstr "Blogues"
+
+#: Orchard.Blogs.AdminMenu
+#| msgid "Manage Blogs"
+msgctxt "Orchard.Blogs.AdminMenu"
+msgid "Manage Blogs"
+msgstr "Gerir Blogues"
+
+#: Orchard.Blogs.AdminMenu
+#| msgid "Manage Blog"
+msgctxt "Orchard.Blogs.AdminMenu"
+msgid "Manage Blog"
+msgstr "Gerir Blogue"
+
+#: Orchard.Blogs.AdminMenu
+#| msgid "Create New Post"
+msgctxt "Orchard.Blogs.AdminMenu"
+msgid "Create New Post"
+msgstr "Criar novo artigo"
+
+#: Orchard.Blogs.AdminMenu
+#| msgid "Create New Blog"
+msgctxt "Orchard.Blogs.AdminMenu"
+msgid "Create New Blog"
+msgstr "Criar novo Blogue"
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Invalid username: {0}"
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Invalid username: {0}"
+msgstr "Nome de utilizador inválido: {0}"
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Invalid Slug provided. Blog creation failed."
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Invalid Slug provided. Blog creation failed."
+msgstr "Link permanente inválido. Falhou a criação do Blogue. "
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "An error occured while loading the file: {0}"
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "An error occured while loading the file: {0}"
+msgstr "Ocorreu um erro ao carregar o ficheiro: {0}"
+
+#: Orchard.Blogs.Commands.BlogCommands
+#| msgid "Blog not found at specified slug: {0}"
+msgctxt "Orchard.Blogs.Commands.BlogCommands"
+msgid "Blog not found at specified slug: {0}"
+msgstr "Blogue não encontrado no link permanente especificado: {0}"
+
+#: Orchard.Blogs.Controllers.BlogAdminController
+#| msgid "Not allowed to create blogs"
+msgctxt "Orchard.Blogs.Controllers.BlogAdminController"
+msgid "Not allowed to create blogs"
+msgstr "Sem permissões para criar blogues"
+
+#: Orchard.Blogs.Controllers.BlogAdminController
+#| msgid "Couldn't create blog"
+msgctxt "Orchard.Blogs.Controllers.BlogAdminController"
+msgid "Couldn't create blog"
+msgstr "Não é possível criar o blogue"
+
+#: Orchard.Blogs.Controllers.BlogAdminController
+#| msgid "Not allowed to edit blog"
+msgctxt "Orchard.Blogs.Controllers.BlogAdminController"
+msgid "Not allowed to edit blog"
+msgstr "Não possui autorização para editar o Blogue"
+
+#: Orchard.Blogs.Controllers.BlogAdminController
+#| msgid "Couldn't edit blog"
+msgctxt "Orchard.Blogs.Controllers.BlogAdminController"
+msgid "Couldn't edit blog"
+msgstr "Não é possível editar o blogue"
+
+#: Orchard.Blogs.Controllers.BlogAdminController
+#| msgid "Blog information updated"
+msgctxt "Orchard.Blogs.Controllers.BlogAdminController"
+msgid "Blog information updated"
+msgstr "Informação sobre o Blogue atualizada"
+
+#: Orchard.Blogs.Controllers.BlogAdminController
+#| msgid "Couldn't delete blog"
+msgctxt "Orchard.Blogs.Controllers.BlogAdminController"
+msgid "Couldn't delete blog"
+msgstr "Não é possível apagar o blogue"
+
+#: Orchard.Blogs.Controllers.BlogAdminController
+#| msgid "Blog was successfully deleted"
+msgctxt "Orchard.Blogs.Controllers.BlogAdminController"
+msgid "Blog was successfully deleted"
+msgstr "Blogue removido com sucesso"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Not allowed to create blog post"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Not allowed to create blog post"
+msgstr "Não possui permissão para criar o artigo no blogue"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Couldn't create blog post"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Couldn't create blog post"
+msgstr "Não foi possível criar o artigo"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Your {0} has been created."
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Your {0} has been created."
+msgstr "O seu {0} foi criado."
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Couldn't edit blog post"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Couldn't edit blog post"
+msgstr "Não é possível editar o artigo do blogue"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Couldn't publish blog post"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Couldn't publish blog post"
+msgstr "Não foi possível publicar o artigo"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Your {0} has been saved."
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Your {0} has been saved."
+msgstr "O seu {0} foi gravado."
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "There is no draft to discard."
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "There is no draft to discard."
+msgstr "Não existe rascunho para eliminar."
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Couldn't discard blog post draft"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Couldn't discard blog post draft"
+msgstr "Não foi possível eliminar a versão de rascunho do artigo"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Can not discard draft on unpublished blog post."
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Can not discard draft on unpublished blog post."
+msgstr "Não é possível eliminar a versão de rascunho não publicada do artigo."
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Blog post draft version discarded"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Blog post draft version discarded"
+msgstr "Versão de rascunho do artigo eliminada"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Couldn't delete blog post"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Couldn't delete blog post"
+msgstr "Não é possível remover o artigo do blogue"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Blog post was successfully deleted"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Blog post was successfully deleted"
+msgstr "Artigo removido com sucesso"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Blog post successfully published."
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Blog post successfully published."
+msgstr "Artigo publicado com sucesso."
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Couldn't unpublish blog post"
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Couldn't unpublish blog post"
+msgstr "Não foi possível remover a publicação do artigo"
+
+#: Orchard.Blogs.Controllers.BlogPostAdminController
+#| msgid "Blog post successfully unpublished."
+msgctxt "Orchard.Blogs.Controllers.BlogPostAdminController"
+msgid "Blog post successfully unpublished."
+msgstr "Publicação do artigo removida com sucesso."
+
+#: Orchard.Blogs.Controllers.BlogPostController
+#| msgid "Couldn't view blog post"
+msgctxt "Orchard.Blogs.Controllers.BlogPostController"
+msgid "Couldn't view blog post"
+msgstr "Não foi possível ver o artigo"
+
+#: Orchard.Blogs.Services.XmlRpcHandler
+#| msgid "The username or e-mail or password provided is incorrect."
+msgctxt "Orchard.Blogs.Services.XmlRpcHandler"
+msgid "The username or e-mail or password provided is incorrect."
+msgstr "O nome de utilizador ou endereço de e-mail ou palavra-passe estão incorrectos."
+
+#: ~/Modules/Orchard.Blogs/Views/Content-Blog.DetailAdmin.cshtml
+#| msgid "New Post"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-Blog.DetailAdmin.cshtml"
+msgid "New Post"
+msgstr "Novo artigo"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml
+#| msgid "List Posts"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml"
+msgid "List Posts"
+msgstr "Listar artigos"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml
+#| msgid "New Post"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml"
+msgid "New Post"
+msgstr "Novo artigo"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml"
+msgid "Edit"
+msgstr "Editar"
+
+#: ~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Blogs/Views/Content-Blog.SummaryAdmin.cshtml"
+msgid "Remove"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.Manage.cshtml
+#| msgid "Blog Properties"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.Manage.cshtml"
+msgid "Blog Properties"
+msgstr "Propriedades do Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogArchives.cshtml
+#| msgid "None found"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogArchives.cshtml"
+msgid "None found"
+msgstr "Nenhum encontrado"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.List.cshtml
+#| msgid "There are no posts for this blog."
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.List.cshtml"
+msgid "There are no posts for this blog."
+msgstr "Não existem artigos neste blogue."
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml"
+msgid "Actions:"
+msgstr "Ações:"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml"
+msgid "Choose action..."
+msgstr "Escolher ação..."
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml
+#| msgid "Publish Now"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml"
+msgid "Publish Now"
+msgstr "Publicar já"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml
+#| msgid "Unpublish"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml"
+msgid "Unpublish"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml"
+msgid "Remove"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml"
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml
+#| msgid "There are no posts for this blog."
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.BlogPost.ListAdmin.cshtml"
+msgid "There are no posts for this blog."
+msgstr "Não existem artigos neste blogue."
+
+#: ~/Modules/Orchard.Blogs/Views/Blog/List.cshtml
+#| msgid "No blogs found."
+msgctxt "~/Modules/Orchard.Blogs/Views/Blog/List.cshtml"
+msgid "No blogs found."
+msgstr "Não foram encontrados blogues."
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/Create.cshtml
+#| msgid "Create New Blog"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/Create.cshtml"
+msgid "Create New Blog"
+msgstr "Criar novo blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/Edit.cshtml
+#| msgid "Blog Properties"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/Edit.cshtml"
+msgid "Blog Properties"
+msgstr "Propriedades do Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/Item.cshtml
+#| msgid "Manage Blog"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/Item.cshtml"
+msgid "Manage Blog"
+msgstr "Gerir Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml
+#| msgid "Manage Blogs"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml"
+msgid "Manage Blogs"
+msgstr "Gerir Blogues"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml
+#| msgid "New Blog"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml"
+msgid "New Blog"
+msgstr "Novo Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml"
+msgid "Actions:"
+msgstr "Ações:"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml"
+msgid "Choose action..."
+msgstr "Escolher ação..."
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml"
+msgid "Remove"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml"
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml
+#| msgid "There are no blogs for you to see. Want to <a href=\"{0}\">add one</a>?"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogAdmin/List.cshtml"
+msgid "There are no blogs for you to see. Want to <a href=\"{0}\">add one</a>?"
+msgstr "Não existem blogues para ver. Quer <a href=\"{0}\">adicionar um</a>?"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogPost/ListByArchive.cshtml
+#| msgid "Archives"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogPost/ListByArchive.cshtml"
+msgid "Archives"
+msgstr "Arquivo"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogPostAdmin/Create.cshtml
+#| msgid "Create New Blog Post"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogPostAdmin/Create.cshtml"
+msgid "Create New Blog Post"
+msgstr "Criar novo artigo no Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/BlogPostAdmin/Edit.cshtml
+#| msgid "Edit Blog Post"
+msgctxt "~/Modules/Orchard.Blogs/Views/BlogPostAdmin/Edit.cshtml"
+msgid "Edit Blog Post"
+msgstr "Editar artigo do Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.Blog.Fields.cshtml
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.Blog.Fields.cshtml"
+msgid "Description"
+msgstr "Descrição"
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.BlogArchives.cshtml
+#| msgid "For Blog"
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.BlogArchives.cshtml"
+msgid "For Blog"
+msgstr "Para o Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.BlogArchives.cshtml
+#| msgid "Show the archives for which blog? Note: specify the blog's slug."
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.BlogArchives.cshtml"
+msgid "Show the archives for which blog? Note: specify the blog's slug."
+msgstr "Mostrar o arquivo para que blogue? Nota: especifique o link permanente do blogue."
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.RecentBlogPosts.cshtml
+#| msgid "For Blog"
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.RecentBlogPosts.cshtml"
+msgid "For Blog"
+msgstr "Para o Blogue"
+
+#: ~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.RecentBlogPosts.cshtml
+#| msgid "Count"
+msgctxt "~/Modules/Orchard.Blogs/Views/EditorTemplates/Parts.Blogs.RecentBlogPosts.cshtml"
+msgid "Count"
+msgstr "Contador"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.BlogPostCount.cshtml
+#| msgid "1 post"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.BlogPostCount.cshtml"
+msgid "1 post"
+msgstr "1 artigo"
+
+#: ~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.BlogPostCount.cshtml
+#| msgid "{0} posts"
+msgctxt "~/Modules/Orchard.Blogs/Views/Parts.Blogs.Blog.BlogPostCount.cshtml"
+msgid "{0} posts"
+msgstr "{0} artigos"
+

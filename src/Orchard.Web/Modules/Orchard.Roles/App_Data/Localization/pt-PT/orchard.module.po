@@ -1,0 +1,347 @@
+# Orchard resource strings - pt-PT
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Roles"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Roles"
+msgstr "Perfis"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Roles"
+msgstr "Perfis"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Creating Role {0} failed: Role with same name already exists"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Creating Role {0} failed: Role with same name already exists"
+msgstr "Falhou a criação do perfil {0}: Já existe um perfil com o mesmo nome"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "The Orchard Team"
+msgstr "A equipa Orchard"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "The roles module is adding the ability to assign roles to users. It's also providing a set of default roles for which other modules can define default permissions."
+msgstr "O módulo Perfis permite que se associem perfis aos utilizadores. Também inclui um conjunto de perfis padrão para os quais os outros módulos podem definir permissões padrão."
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Orchard.Roles.Name"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Roles"
+msgstr "Perfis"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Orchard.Roles.Description"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Standard user roles."
+msgstr "Perfis padrão de utilizadores"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Orchard.Roles.Category"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Core"
+msgstr "Core"
+
+#: Orchard.Roles.AdminMenu
+#| msgid "Users"
+msgctxt "Orchard.Roles.AdminMenu"
+msgid "Users"
+msgstr "Utilizadores"
+
+#: Orchard.Roles.AdminMenu
+#| msgid "Roles"
+msgctxt "Orchard.Roles.AdminMenu"
+msgid "Roles"
+msgstr "Perfis"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Not authorized to manage roles"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Not authorized to manage roles"
+msgstr "Não está autorizado a efetuar a gestão de perfis"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Deleting Role failed: {0}"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Deleting Role failed: {0}"
+msgstr "Falhou a eliminação do perfil: {0}"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Creating Role failed: {0}"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Creating Role failed: {0}"
+msgstr "Falhou a criação do perfil: {0}"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Your Role has been saved."
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Your Role has been saved."
+msgstr "O seu perfil foi guardado."
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Editing Role failed: {0}"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Editing Role failed: {0}"
+msgstr "Falhou a edição do perfil: {0}"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Role was successfully deleted."
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Role was successfully deleted."
+msgstr "O perfil foi eliminado com sucesso."
+
+#: Orchard.Roles.Drivers.UserRolesPartDriver
+#| msgid "Adding role {0} to user {1}"
+msgctxt "Orchard.Roles.Drivers.UserRolesPartDriver"
+msgid "Adding role {0} to user {1}"
+msgstr "Adicionar o perfil {0} ao utilizador {1}"
+
+#: Orchard.Roles.Drivers.UserRolesPartDriver
+#| msgid "Removing role {0} from user {1}"
+msgctxt "Orchard.Roles.Drivers.UserRolesPartDriver"
+msgid "Removing role {0} from user {1}"
+msgstr "Remover o perfil {0} do utilizador {1}"
+
+#: Orchard.Roles.Services.RolesBasedAuthorizationService
+#| msgid "A security exception occurred in the content management system."
+msgctxt "Orchard.Roles.Services.RolesBasedAuthorizationService"
+msgid "A security exception occurred in the content management system."
+msgstr "Uma exceção de segurança ocorreu no sistema de gestão de conteúdo."
+
+#: Orchard.Roles.Services.RoleService
+#| msgid "Permission {0} was not found in any of the installed modules."
+msgctxt "Orchard.Roles.Services.RoleService"
+msgid "Permission {0} was not found in any of the installed modules."
+msgstr "A permissão {0} não foi encontrada em nenhum dos módulos instalados."
+
+#: Orchard.Roles.Services.RoleService
+#| msgid "{0} Feature"
+msgctxt "Orchard.Roles.Services.RoleService"
+msgid "{0} Feature"
+msgstr "{0} Funcionalidade"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Add Role"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Add Role"
+msgstr "Adicional perfil"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Information"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Information"
+msgstr "Informação"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Role Name:"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Role Name:"
+msgstr "Nome do perfil:"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Permissions"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Permissions"
+msgstr "Permissões"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "{0} Module"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "{0} Module"
+msgstr "{0} Módulo"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Permission"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Permission"
+msgstr "Permissão"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Allow"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Allow"
+msgstr "Autorizar"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Checkbox.{0}"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Checkbox.{0}"
+msgstr "Checkbox.{0}"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Save"
+msgstr "Guardar"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Edit Role"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Edit Role"
+msgstr "Editar perfil"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Information"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Information"
+msgstr "Informação"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Role Name:"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Role Name:"
+msgstr "Nome do perfil:"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Permissions"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Permissions"
+msgstr "Permissões"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Permission"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Permission"
+msgstr "Permissão"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Allow"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Allow"
+msgstr "Autorizar"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Effective"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Effective"
+msgstr "Em vigor"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Checkbox.{0}"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Checkbox.{0}"
+msgstr "Checkbox.{0}"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Effective.{0}"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Effective.{0}"
+msgstr "Effective.{0}"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Save"
+msgstr "Guardar"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Remove"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Manage Roles"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Manage Roles"
+msgstr "Gerir perfis"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "Ações:"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Remove"
+msgstr "Remover"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Add a role"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Add a role"
+msgstr "Adicionar perfil"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "This is a table of the roles currently available for use in your application."
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "This is a table of the roles currently available for use in your application."
+msgstr "Esta é uma tabela de perfis disponíveis para utilizar na sua aplicação."
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "Nome"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "Editar"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml
+#| msgid "Roles"
+msgctxt "~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml"
+msgid "Roles"
+msgstr "Perfis"
+
+#: ~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml
+#| msgid "There are no roles."
+msgctxt "~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml"
+msgid "There are no roles."
+msgstr "Não existem perfis."
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Role name can't be empty"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Role name can't be empty"
+msgstr "O nome do perfil tem que possuir pelo menos um carater"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Role with same name already exists"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Role with same name already exists"
+msgstr "Já existe um perfil com o mesmo nome"
+

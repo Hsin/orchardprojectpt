@@ -1,0 +1,53 @@
+# Orchard resource strings - pt-PT
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "The Orchard Team"
+msgstr "A equipa Orchard"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "The TinyMCE module enables rich text contents to be created using a "What You See Is What You Get" user interface."
+msgstr "O módulo TinyMCE proporciona uma edição de texto utilizando um modo "What You See Is What You Get"."
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "TinyMce.Name"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "TinyMce"
+msgstr "TinyMce"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "TinyMce.Description"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "TinyMCE HTML WYSIWYG editor."
+msgstr "Editor HTML WYSIWYG TinyMCE."
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "TinyMce.Category"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "Input Editor"
+msgstr "Editor"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "TinyMce"
+msgstr "TinyMce"
+
+#: ~/Modules/TinyMce/Views/Body-Html.Editor.cshtml
+#| msgid "Insert/Update Media"
+msgctxt "~/Modules/TinyMce/Views/Body-Html.Editor.cshtml"
+msgid "Insert/Update Media"
+msgstr "Inserir/Atualizar Media"
+

@@ -1,0 +1,119 @@
+# Orchard resource strings - pt-PT
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Recipes/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Recipes/Module.txt"
+msgid "Recipes"
+msgstr "Receitas"
+
+#: ~/Modules/Orchard.Recipes/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Recipes/Module.txt"
+msgid "The Orchard Team"
+msgstr "A equipa Orchard"
+
+#: ~/Modules/Orchard.Recipes/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Recipes/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Recipes/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Recipes/Module.txt"
+msgid "Provides Orchard Recipes."
+msgstr "Fornece receitas Orchard."
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "Could not discover recipes because module '{0}' was not found."
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Could not discover recipes because module '{0}' was not found."
+msgstr "Não é possível descobrir receitas, porque o módulo '{0}' não foi encontrado."
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "No recipes found for extension {0}."
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "No recipes found for extension {0}."
+msgstr "Não existem receitas para a extensão {0}."
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "List of available recipes"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "List of available recipes"
+msgstr "Lista das recitas disponíveis"
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "--------------------------"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "--------------------------"
+msgstr "--------------------------"
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "Recipe: {0}"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Recipe: {0}"
+msgstr "Receita: {0}"
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "  Version:     {0}"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Version:     {0}"
+msgstr "  Versão:     {0}"
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "  Tags:        {0}"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Tags:        {0}"
+msgstr "  Etiquetas:        {0}"
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "  Description: {0}"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Description: {0}"
+msgstr "Descrição: {0}"
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "  Author:      {0}"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Author:      {0}"
+msgstr "Autor:      {0}"
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "  Website:     {0}"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Website:     {0}"
+msgstr "  Website:     {0}"
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "Invalid recipe name {0}."
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Invalid recipe name {0}."
+msgstr "Nome de receita inválido {0}."
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "Recipe scheduled for execution successfully."
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Recipe scheduled for execution successfully."
+msgstr "Agendamento para execução de receita realizado com sucesso."
+
+#: Orchard.Recipes.Commands.RecipesCommands
+#| msgid "Recipe failed to execute."
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Recipe failed to execute."
+msgstr "Receita falhou a execução."
+
+#: Orchard.Recipes.Services.RecipeStepExecutor
+#| msgid "Recipe execution with id {0} was cancelled because the \"{1}\" step failed to execute. The following exception was thrown: {2}. Refer to the recipe journal for more information."
+msgctxt "Orchard.Recipes.Services.RecipeStepExecutor"
+msgid "Recipe execution with id {0} was cancelled because the \"{1}\" step failed to execute. The following exception was thrown: {2}. Refer to the recipe journal for more information."
+msgstr "A execução de receita com o id {0} foi cancelada, porque o passo \"{1}\" falhou a sua execução. Foi acionada a exceção:  {2}. Consulte o jornal de receitas para mais informação."
+
+#: Orchard.Recipes.Services.RecipeStepExecutor
+#| msgid "Recipe execution with id {0} was cancelled because the recipe handler for step \"{1}\" was not found. Refer to the recipe journal for more information."
+msgctxt "Orchard.Recipes.Services.RecipeStepExecutor"
+msgid "Recipe execution with id {0} was cancelled because the recipe handler for step \"{1}\" was not found. Refer to the recipe journal for more information."
+msgstr "A execução de receita com o id {0} foi cancelada, porque o processador de receitas para o passo \"{1}\" não foi encontrado. Consulte o jornal de receitas para mais informação."
+
