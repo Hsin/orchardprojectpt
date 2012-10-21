@@ -6,6 +6,8 @@ packages/
 Orchard.Web/App_Data/*
 !Orchard.Web/App_Data/Localization
 Orchard.Web/Media/
+!Orchard.Web/Media/web.config
+!Orchard.Web/Media/OrchardLogo.png
 
 # mercurial
 .hg
