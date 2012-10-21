@@ -1,0 +1,227 @@
+<!--Exported from Orchard-->
+<Orchard>
+  <Recipe>
+    <Name>Orchard Portugal</Name>
+    <Description>A recipe para o site Orchard Portugal.</Description>
+    <Author>The Orchard Portugal Team</Author>
+    <WebSite>http://orchardproject.pt</WebSite>
+    <Tags></Tags>
+    <Version>1.0</Version>
+  </Recipe>
+
+  <Feature enable="Orchard.Blogs,Orchard.Comments,Orchard.Tags,Orchard.Alias,Orchard.Autoroute,
+                   TinyMce,Orchard.Media,Orchard.MediaPicker,Orchard.ContentPicker,Orchard.PublishLater,
+                   Orchard.jQuery,Orchard.Widgets,Orchard.Widgets.PageLayerHinting,Orchard.ContentTypes,
+                   Orchard.Scripting,Orchard.Scripting.Lightweight,
+                   PackagingServices,Orchard.Packaging,Orchard.Warmup,Orchard.Projections,Orchard.Fields,
+                   TheThemeMachine, WebAdvanced.Sitemap, SH.Robots, SH.GoogleAnalytics, OrchardProject.Net, Orchard.ImportExport,
+                   Orchard.CustomForms" />
+  <Metadata>
+    <Types>
+      <Page ContentTypeSettings.Creatable="True" ContentTypeSettings.Draftable="True" TypeIndexing.Included="true" DisplayName="Page">
+        <NavigationPart />
+        <CommonPart DateEditorSettings.ShowDateEditor="true" />
+        <PublishLaterPart />
+        <TitlePart />
+        <AutoroutePart AutorouteSettings.AllowCustomPattern="true" AutorouteSettings.AutomaticAdjustmentOnEdit="false" AutorouteSettings.PatternDefinitions="[{Name:'Title', Pattern: '{Content.Slug}', Description: 'my-page'}]" AutorouteSettings.DefaultPatternIndex="0" />
+        <BodyPart />
+        <TagsPart />
+        <LocalizationPart />
+        <MetaPart />
+      </Page>
+      <BlogPost ContentTypeSettings.Draftable="True" TypeIndexing.Included="true" DisplayName="Blog Post">
+        <BlogPostPart />
+        <CommonPart DateEditorSettings.ShowDateEditor="true" />
+        <PublishLaterPart />
+        <TitlePart />
+        <AutoroutePart AutorouteSettings.AllowCustomPattern="true" AutorouteSettings.AutomaticAdjustmentOnEdit="false" AutorouteSettings.PatternDefinitions="[{Name:'Blog and Title', Pattern: '{Content.Container.Path}/{Content.Slug}', Description: 'my-blog/my-post'}]" AutorouteSettings.DefaultPatternIndex="0" />
+        <BodyPart />
+        <CommentsPart />
+        <TagsPart />
+        <LocalizationPart />
+        <MetaPart />
+      </BlogPost>
+      <CustomForm ContentTypeSettings.Draftable="True" DisplayName="Custom Form">
+        <CommonPart />
+        <TitlePart />
+        <AutoroutePart AutorouteSettings.AllowCustomPattern="true" AutorouteSettings.AutomaticAdjustmentOnEdit="false" AutorouteSettings.PatternDefinitions="[{Name:'Title', Pattern: '{Content.Slug}', Description: 'my-form'}]" AutorouteSettings.DefaultPatternIndex="0" />
+        <MenuPart />
+        <CustomFormPart />
+        <MetaPart />
+      </CustomForm>
+      <ContactFields ContentTypeSettings.Creatable="False" ContentTypeSettings.Draftable="False" DisplayName="Contact Form Fields">
+        <CommonPart DateEditorSettings.ShowDateEditor="False" OwnerEditorSettings.ShowOwnerEditor="False" />
+        <ContactFields />
+      </ContactFields>
+    </Types>
+    <Parts>
+      <BodyPart BodyPartSettings.FlavorDefault="html" />
+      <ContactFields ContentPartSettings.Attachable="True">
+        <Nome.InputField DisplayName="Nome" InputFieldSettings.Type="Text" InputFieldSettings.Required="True" InputFieldSettings.AutoFocus="False" InputFieldSettings.AutoComplete="False" InputFieldSettings.Placeholder="Por favor insira o seu nome" InputFieldSettings.MaxLength="0" InputFieldSettings.EditorCssClass="fullWidth" />
+        <Email.InputField DisplayName="Email" InputFieldSettings.Type="Email" InputFieldSettings.Required="True" InputFieldSettings.AutoFocus="False" InputFieldSettings.AutoComplete="False" InputFieldSettings.Placeholder="Por favor insira o seu endereço de email" InputFieldSettings.MaxLength="0" InputFieldSettings.EditorCssClass="fullWidth" />
+        <Mensagem.TextField DisplayName="Mensagem" TextFieldSettings.Flavor="Textarea" TextFieldSettings.Required="True" />
+      </ContactFields>
+    </Parts>
+  </Metadata>
+  <Settings>
+    <SiteSettingsPart PageTitleSeparator=" - " SiteName="test" SuperUser="admin" SiteCulture="pt-PT" 
+                      PageSize="10" SiteTimeZone="GMT Standard Time" BaseUrl="http://www.orchardproject.pt" />
+    <SiteSettings2Part BaseUrl="http://www.orchardproject.pt" />
+    <ThemeSiteSettingsPart CurrentThemeName="OrchardProject.Net" />
+    <CommentSettingsPart ModerateComments="false" EnableSpamProtection="false" />
+    <RegistrationSettingsPart UsersCanRegister="false" UsersMustValidateEmail="false" UsersAreModerated="false" NotifyModeration="false" EnableLostPassword="false" />
+    <MediaSettingsPart UploadAllowedFileTypeWhitelist="jpg jpeg gif png txt doc docx xls xlsx pdf ppt pptx pps ppsx odt ods odp" />
+    <WarmupSettingsPart Scheduled="false" Delay="90" OnPublish="false" />
+    <GoogleAnalyticsSettingsPart GoogleAnalyticsKey="UA-34473106-3" UseAsyncTracking="true" TrackOnAdmin="false" />
+    <FaviconSettingsPart />
+  </Settings>
+  <Data>
+    <Layer Id="/Layer.LayerName=Default" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <LayerPart Name="Default" Description="The widgets in this layer are displayed on all pages" LayerRule="true" />
+    </Layer>
+    <Layer Id="/Layer.LayerName=Authenticated" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <LayerPart Name="Authenticated" Description="The widgets in this layer are displayed when the user is authenticated" LayerRule="authenticated" />
+    </Layer>
+    <Layer Id="/Layer.LayerName=Anonymous" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <LayerPart Name="Anonymous" Description="The widgets in this layer are displayed when the user is anonymous" LayerRule="not authenticated" />
+    </Layer>
+    <Layer Id="/Layer.LayerName=Disabled" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <LayerPart Name="Disabled" Description="The widgets in this layer are never displayed" LayerRule="false" />
+    </Layer>
+    <Layer Id="/Layer.LayerName=TheHomepage" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <LayerPart Name="TheHomepage" Description="The widgets in this layer are displayed on the home page" LayerRule="url '~/'" />
+    </Layer>
+    <Layer Id="/Layer.LayerName=!TheHomepage" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T14:55:13Z" PublishedUtc="2012-10-21T14:55:13Z" ModifiedUtc="2012-10-21T17:20:32Z" />
+      <LayerPart Name="!TheHomepage" LayerRule="not url(&quot;~/&quot;) and not url(&quot;~/blog/*&quot;) and not url(&quot;~/tags/*&quot;)" />
+    </Layer>
+    <Blog Id="/alias=" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T13:37:04Z" PublishedUtc="2012-10-21T14:04:55Z" ModifiedUtc="2012-10-21T14:04:54Z" />
+      <AutoroutePart Alias="/" UseCustomPattern="false" />
+      <TitlePart Title="Orchard Portugal: Ultimas Notícias" />
+      <AdminMenuPart AdminMenuPosition="2" OnAdminMenu="false" />
+      <MenuPart Menu="/name=Main Menu" MenuText="Principal" MenuPosition="1" />
+      <BlogPart PostCount="1" />
+    </Blog>
+    <BlogPost Id="/alias=blog\/lancamento-do-orchard-portugal" Status="Published">
+      <BodyPart Text="&lt;p&gt;&amp;Eacute; com enorme orgulho que lan&amp;ccedil;amos hoje o site da comunidade de lingua portuguesa para os desenvolvedores e utilizadores do &lt;a href=&quot;http://orchardproject.net/&quot;&gt;projecto Orchard&lt;/a&gt;.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;O nosso objectivo &amp;eacute; de dar a conhecer o Orchard aos programadores de&amp;nbsp;l&amp;iacute;ngua&amp;nbsp;portuguesa com documenta&amp;ccedil;&amp;atilde;o e actualiza&amp;ccedil;&amp;otilde;es sobre a plataforma.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Assim como aos utilizadores finais com guias e tutoriais, direct&amp;oacute;rios de programadores activos e projectos&amp;nbsp;constru&amp;iacute;dos&amp;nbsp;com o Orchard na lingua portuguesa.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Aumentando assim o numero de usos do Orchard e contribui&amp;ccedil;&amp;otilde;es para o projecto em Portugu&amp;ecirc;s.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Para mais informa&amp;ccedil;&amp;otilde;es &lt;a href=&quot;/contactos&quot;&gt;entre em contacto&lt;/a&gt; connosco ou &lt;a href=&quot;http://orchardproject.net/contribution&quot;&gt;contribue&lt;/a&gt; para a comunidade.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;/p&gt;" />
+      <CommonPart Owner="/User.UserName=admin" Container="/alias=" CreatedUtc="2012-10-21T16:18:00Z" PublishedUtc="2012-10-21T17:16:44Z" ModifiedUtc="2012-10-21T17:16:44Z" />
+      <AutoroutePart Alias="blog/lancamento-do-orchard-portugal" UseCustomPattern="false" />
+      <TitlePart Title="Lançamento do Orchard Portugal" />
+      <CommentsPart CommentsShown="true" CommentsActive="true" />
+      <TagsPart Tags="orchard,orchard pt" />
+    </BlogPost>
+    <CustomForm Id="/alias=contactos" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T15:53:39Z" PublishedUtc="2012-10-21T15:53:39Z" ModifiedUtc="2012-10-21T15:53:39Z" />
+      <AutoroutePart Alias="contactos" UseCustomPattern="false" />
+      <TitlePart Title="Contacte-nos" />
+      <MenuPart Menu="/name=Main Menu" MenuText="Contactos" MenuPosition="8" />
+      <CustomFormPart ContentType="ContactFields" SaveContentItem="true" CustomMessage="true" Message="Obrigado pelo seu contacto. Entramos em contacto consigo brevemente!" Redirect="false" />
+    </CustomForm>
+    <HtmlWidget Id="/Identifier=SetupHtmlWidget1" Status="Published">
+      <IdentityPart Identifier="SetupHtmlWidget1" />
+      <BodyPart Text="&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nibh ut tortor dapibus vestibulum. Aliquam vel sem nibh. Suspendisse vel condimentum tellus.&lt;/p&gt;" />
+      <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=TheHomepage" CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <WidgetPart Title="First Leader Aside" Position="5" Zone="TripelFirst" RenderTitle="true" />
+    </HtmlWidget>
+    <HtmlWidget Id="/Identifier=SetupHtmlWidget2" Status="Published">
+      <IdentityPart Identifier="SetupHtmlWidget2" />
+      <BodyPart Text="&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nibh ut tortor dapibus vestibulum. Aliquam vel sem nibh. Suspendisse vel condimentum tellus.&lt;/p&gt;" />
+      <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=TheHomepage" CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <WidgetPart Title="Second Leader Aside" Position="5" Zone="TripelSecond" RenderTitle="true" />
+    </HtmlWidget>
+    <HtmlWidget Id="/Identifier=SetupHtmlWidget3" Status="Published">
+      <IdentityPart Identifier="SetupHtmlWidget3" />
+      <BodyPart Text="&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nibh ut tortor dapibus vestibulum. Aliquam vel sem nibh. Suspendisse vel condimentum tellus.&lt;/p&gt;" />
+      <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=TheHomepage" CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <WidgetPart Title="Third Leader Aside" Position="5" Zone="TripelThird" RenderTitle="true" />
+    </HtmlWidget>
+    <HtmlWidget Id="/Identifier=cda75e4c4c4242638f3116e601ea2e7b" Status="Published">
+      <IdentityPart Identifier="cda75e4c4c4242638f3116e601ea2e7b" />
+      <BodyPart Text="&lt;div style=&quot;margin-top: 25px;&quot; class=&quot;moduleContentMain&quot;&gt;&#xD;&#xA;&lt;div style=&quot;padding: 0 12px; position: relative;&quot;&gt;&#xD;&#xA;&lt;div style=&quot;width: 532px; height: 197px; overflow-x: hidden; overflow-y: hidden;&quot; id=&quot;slider&quot;&gt;&#xD;&#xA;&lt;ul style=&quot;width: 532px; margin-left: 0px;&quot;&gt;&#xD;&#xA;&lt;li style=&quot;float: left;&quot; class=&quot;aboutOrchard&quot;&gt;&#xD;&#xA;&lt;div style=&quot;margin: 20px 0 0 216px; width: 300px; font-size: 1.1em;&quot;&gt;&#xD;&#xA;&lt;h5&gt;Sobre o Orchard Portugal&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;Este &amp;eacute; o site da comunidade de lingua portuguesa para os desenvolvedores e utilizadores do projecto Orchard. &lt;a href=&quot;/sobre&quot;&gt;Saber mais...&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;span id=&quot;prevBtn&quot;&gt;&lt;a href=&quot;javascript:void(0);&quot;&gt;&lt;/a&gt;&lt;/span&gt; &lt;span id=&quot;nextBtn&quot;&gt;&lt;a href=&quot;javascript:void(0);&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;" />
+      <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=TheHomepage" CreatedUtc="2012-10-21T13:17:13Z" PublishedUtc="2012-10-21T13:17:13Z" ModifiedUtc="2012-10-21T15:11:20Z" />
+      <WidgetPart Title="Sobre o Orchard Portugal" Position="1" Zone="BeforeContent" RenderTitle="false" />
+    </HtmlWidget>
+    <HtmlWidget Id="/Identifier=c9cbb1c653d843b39494b135b22b02b5" Status="Published">
+      <IdentityPart Identifier="c9cbb1c653d843b39494b135b22b02b5" />
+      <BodyPart Text="&lt;p class=&quot;content&quot;&gt;O Orchard 1.5.1 est&amp;aacute; disponivel! Esta vers&amp;atilde;o est&amp;aacute; publicada no site &lt;a href=&quot;http://orchard.codeplex.com&quot;&gt;Orchard CodePlex&lt;/a&gt; e tamb&amp;eacute;m pela &lt;a href=&quot;http://microsoft.com/web/gallery&quot;&gt;Microsoft Web Application Gallery&lt;/a&gt;.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Esta vers&amp;atilde;o &amp;eacute; a recomendada para a produ&amp;ccedil;&amp;atilde;o de sites ao vivo, e &amp;eacute; o resultado de mais de um ano de desenvolvimento da equipa Orchard e contibui&amp;ccedil;&amp;otilde;es da comunidade open source. N&amp;atilde;o se esque&amp;ccedil;am de consultar o &lt;a href=&quot;http://www.orchardproject.net/gallery&quot;&gt;site da galeria&lt;/a&gt; (e o &lt;a href=&quot;http://orchardgallery.codeplex.com/&quot;&gt;projecto open source&lt;/a&gt; da mesma). Onde podem fazer upload e partilhar os seus modulos e temas.&lt;/p&gt;&#xD;&#xA;&lt;p style=&quot;margin: 12px 0 0 0;&quot;&gt;&lt;a class=&quot;button primaryAction&quot; href=&quot;http://orchardproject.net/docs/Installing-Orchard.ashx&quot;&gt;Instalar pelo Web Platform Installer&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;&lt;ul class=&quot;list&quot;&gt;&#xD;&#xA;&lt;li&gt;&lt;a href=&quot;http://docs.orchardproject.net/Documentation/Orchard-1-5-Release-Notes&quot;&gt;Ver notas de lan&amp;ccedil;amento&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;a href=&quot;http://orchard.codeplex.com/downloads/get/461849&quot;&gt;Download como zip &lt;small&gt;(9 MB)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;a href=&quot;http://orchard.codeplex.com/downloads/get/461850&quot;&gt;Download do c&amp;oacute;digo &lt;small&gt;(20 MB)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;a href=&quot;http://docs.orchardproject.net/&quot;&gt;Documenta&amp;ccedil;&amp;atilde;o e tutoriais&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;" />
+      <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=TheHomepage" CreatedUtc="2012-10-21T13:51:25Z" PublishedUtc="2012-10-21T13:51:25Z" ModifiedUtc="2012-10-21T14:56:03Z" />
+      <WidgetPart Title="Orchard v1.5.1" Position="2" Zone="Sidebar" RenderTitle="true" />
+    </HtmlWidget>
+    <Menu Id="/name=Main Menu" Status="Published">
+      <CommonPart CreatedUtc="2012-10-21T11:55:20Z" PublishedUtc="2012-10-21T11:55:20Z" ModifiedUtc="2012-10-21T11:55:20Z" />
+      <TitlePart Title="Main Menu" />
+    </Menu>
+    <ContentMenuItem Id="/Identifier=2b73d9b2d5d944509aa7f0d25b7c530b" Status="Published">
+      <IdentityPart Identifier="2b73d9b2d5d944509aa7f0d25b7c530b" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T14:24:32Z" PublishedUtc="2012-10-21T14:24:32Z" ModifiedUtc="2012-10-21T14:24:32Z" />
+      <ContentMenuItemPart ContentItem="/alias=sobre" />
+      <MenuPart Menu="/name=Main Menu" MenuText="Sobre" MenuPosition="7" />
+    </ContentMenuItem>
+    <MenuItem Id="/Identifier=54e3bd1d66564ab1b41cadcbadce2959" Status="Published">
+      <IdentityPart Identifier="54e3bd1d66564ab1b41cadcbadce2959" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T14:20:33Z" PublishedUtc="2012-10-21T14:20:33Z" ModifiedUtc="2012-10-21T14:20:33Z" />
+      <MenuItemPart Url="http://orchard.codeplex.com/" />
+      <MenuPart Menu="/name=Main Menu" MenuText="Download" MenuPosition="2" />
+    </MenuItem>
+    <MenuItem Id="/Identifier=a0553b667736471ca655f42f14e07361" Status="Published">
+      <IdentityPart Identifier="a0553b667736471ca655f42f14e07361" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T14:20:55Z" PublishedUtc="2012-10-21T14:20:56Z" ModifiedUtc="2012-10-21T14:20:55Z" />
+      <MenuItemPart Url="http://docs.orchardproject.net/" />
+      <MenuPart Menu="/name=Main Menu" MenuText="Documentação" MenuPosition="3" />
+    </MenuItem>
+    <MenuItem Id="/Identifier=7205f60afd60480780879c796713b6fc" Status="Published">
+      <IdentityPart Identifier="7205f60afd60480780879c796713b6fc" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T14:22:21Z" PublishedUtc="2012-10-21T14:22:21Z" ModifiedUtc="2012-10-21T14:22:21Z" />
+      <MenuItemPart Url="http://orchardproject.net/localize/pt-PT" />
+      <MenuPart Menu="/name=Main Menu" MenuText="Tradução" MenuPosition="4" />
+    </MenuItem>
+    <MenuItem Id="/Identifier=4bd11677870d4f8a89d4d533684f78ba" Status="Published">
+      <IdentityPart Identifier="4bd11677870d4f8a89d4d533684f78ba" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T14:22:36Z" PublishedUtc="2012-10-21T14:22:36Z" ModifiedUtc="2012-10-21T14:22:36Z" />
+      <MenuItemPart Url="http://orchardproject.net/contribution" />
+      <MenuPart Menu="/name=Main Menu" MenuText="Contribuir" MenuPosition="5" />
+    </MenuItem>
+    <MenuItem Id="/Identifier=4b7f6240f5854e15b3dde58c96b89154" Status="Published">
+      <IdentityPart Identifier="4b7f6240f5854e15b3dde58c96b89154" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T14:23:47Z" PublishedUtc="2012-10-21T14:23:47Z" ModifiedUtc="2012-10-21T14:23:47Z" />
+      <MenuItemPart Url="http://orchardproject.net/discussions" />
+      <MenuPart Menu="/name=Main Menu" MenuText="Discussões e Ajuda" MenuPosition="6" />
+    </MenuItem>
+    <MenuWidget Id="/Identifier=MenuWidget1" Status="Published">
+      <IdentityPart Identifier="MenuWidget1" />
+      <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=Default" CreatedUtc="2012-10-21T11:55:21Z" PublishedUtc="2012-10-21T11:55:21Z" ModifiedUtc="2012-10-21T11:55:21Z" />
+      <WidgetPart Title="Main Menu" Position="1" Zone="Navigation" RenderTitle="false" />
+      <MenuWidgetPart Menu="/name=Main Menu" StartLevel="1" Levels="0" Breadcrumb="false" AddCurrentPage="false" AddHomePage="false" />
+    </MenuWidget>
+    <Page Id="/alias=bem-vindo" Status="Published">
+      <BodyPart Text="&lt;p&gt;Bem vindo &amp;aacute; comunidade Portuguesa do projecto open source &lt;a target=&quot;_blank&quot; href=&quot;http://www.orchardproject.net/&quot;&gt;Orchard Project CMS&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;/p&gt;" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T11:55:00Z" PublishedUtc="2012-10-21T13:14:32Z" ModifiedUtc="2012-10-21T13:14:32Z" />
+      <AutoroutePart Alias="bem-vindo" CustomPattern="" UseCustomPattern="true" />
+      <TitlePart Title="Bem vindo" />
+      <TagsPart Tags="" />
+    </Page>
+    <Page Id="/alias=sobre" Status="Published">
+      <BodyPart Text="&lt;p&gt;Este &amp;eacute; o site da comunidade de lingua portuguesa para os desenvolvedores e utilizadores do projecto Orchard.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;O nosso objectivo &amp;eacute; de dar a conhecer o Orchard aos programadores de&amp;nbsp;l&amp;iacute;ngua&amp;nbsp;portuguesa com documenta&amp;ccedil;&amp;atilde;o e actualiza&amp;ccedil;&amp;otilde;es sobre a plataforma.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Assim como aos utilizadores finais com guias e tutoriais, direct&amp;oacute;rios de programadores activos e projectos&amp;nbsp;constru&amp;iacute;dos&amp;nbsp;com o Orchard na lingua portuguesa&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Aumentando assim o numero de usos do Orchard e contribui&amp;ccedil;&amp;otilde;es para o projecto.&lt;/p&gt;&#xD;&#xA;&lt;h2&gt;Equipa Orchard Portugal&lt;/h2&gt;&#xD;&#xA;&lt;blockquote&gt;&#xD;&#xA;&lt;h3&gt;Pedro Costa | Programador&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Localiza&amp;ccedil;&amp;atilde;o: Aveiro, Portugal | &lt;a href=&quot;http://nublr.pt&quot;&gt;Nublr&lt;/a&gt; | Twitter:&amp;nbsp;&lt;a href=&quot;http://twitter.com/pnmcosta&quot;&gt;@pnmcosta&lt;/a&gt; | LinkedIn: &lt;a href=&quot;http://www.linkedin.com/in/pnmcosta&quot;&gt;http://www.linkedin.com/in/pnmcosta&lt;/a&gt; | Codeplex: &lt;a href=&quot;http://www.codeplex.com/site/users/view/pnmcosta&quot;&gt;pnmcosta&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Sofreu um s&amp;eacute;rio caso de amor &amp;aacute; primeira vista com o Orchard, seguidor do projecto desde a vers&amp;atilde;o 1.1 e programador &amp;aacute; mais de 10 anos, acredita que o Orchard &amp;eacute; a plataforma de gest&amp;atilde;o de conte&amp;uacute;dos ideal para programadores e utilizadores finais.&lt;/p&gt;&#xD;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;blockquote&gt;&#xD;&#xA;&lt;h3&gt;Jo&amp;atilde;o Carvalho | Programador&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Localiza&amp;ccedil;&amp;atilde;o: Aveiro, Portugal | &lt;a href=&quot;http://nublr.pt&quot;&gt;Nublr&lt;/a&gt; | Codeplex: &lt;a href=&quot;http://www.codeplex.com/site/users/view/jifu&quot;&gt;jifu&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;&lt;/blockquote&gt;" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2012-10-21T14:24:00Z" PublishedUtc="2012-10-21T16:18:49Z" ModifiedUtc="2012-10-21T16:18:49Z" />
+      <AutoroutePart Alias="sobre" UseCustomPattern="false" />
+      <TitlePart Title="Sobre Orchard Portugal" />
+      <TagsPart Tags="" />
+    </Page>
+    <RecentBlogPosts Id="" Status="Published">
+      <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=!TheHomepage" CreatedUtc="2012-10-21T14:55:36Z" PublishedUtc="2012-10-21T14:55:36Z" ModifiedUtc="2012-10-21T17:10:23Z" />
+      <WidgetPart Title="Notícias Recentes" Position="1" Zone="Sidebar" RenderTitle="true" Name="SibebarPosts" />
+      <RecentBlogPostsPart Blog="/alias=" Count="10" />
+    </RecentBlogPosts>
+  </Data>
+  <Command>
+    theme activate "OrchardProject.Net"
+    cultures add "pt-PT"
+    cultures set site culture "pt-PT"
+  </Command>
+</Orchard>

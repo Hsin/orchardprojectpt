@@ -5,6 +5,7 @@ using Orchard.ContentManagement.Drivers;
 using Orchard.Environment.Extensions;
 using Orchard.UI.Resources;
 using Vandelay.Industries.Models;
+using Orchard.ContentManagement.Handlers;
 
 namespace Vandelay.Industries.Drivers {
     [OrchardFeature("Vandelay.Industries")]
@@ -46,6 +47,26 @@ namespace Vandelay.Industries.Drivers {
         protected override DriverResult Editor(MetaPart part, IUpdateModel updater, dynamic shapeHelper) {
             updater.TryUpdateModel(part, Prefix, null, null);
             return Editor(part, shapeHelper);
+        }
+
+        protected override void Exporting(MetaPart part, ExportContentContext context)
+        {
+            context.Element(part.PartDefinition.Name).SetAttributeValue("Keywords", part.Keywords);
+            context.Element(part.PartDefinition.Name).SetAttributeValue("Description", part.Description);
+        }
+
+        protected override void Importing(MetaPart part, ImportContentContext context)
+        {
+            var keywords = context.Attribute(part.PartDefinition.Name, "Keywords");
+            if (!String.IsNullOrWhiteSpace(keywords))
+            {
+                part.Keywords = keywords;
+            }
+            var description = context.Attribute(part.PartDefinition.Name, "Description");
+            if (!String.IsNullOrWhiteSpace(description))
+            {
+                part.Description = description;
+            }
         }
     }
 }

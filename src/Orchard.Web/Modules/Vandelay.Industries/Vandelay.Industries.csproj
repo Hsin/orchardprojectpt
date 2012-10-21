@@ -47,17 +47,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Fluent.IO">
-      <HintPath>Libraries\Fluent.IO.dll</HintPath>
+      <HintPath>..\..\..\..\lib\fluentzip\Fluent.IO.dll</HintPath>
     </Reference>
     <Reference Include="Fluent.Zip">
-      <HintPath>Libraries\Fluent.Zip.dll</HintPath>
+      <HintPath>..\..\..\..\lib\fluentzip\Fluent.Zip.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack">
-      <HintPath>Libraries\HtmlAgilityPack.dll</HintPath>
+      <HintPath>..\..\..\..\lib\htmlagilitypack\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>..\..\..\..\lib\msbuild\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
